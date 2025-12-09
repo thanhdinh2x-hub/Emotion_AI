@@ -1,0 +1,15 @@
+# Bỏ toàn bộ thư mục data/
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Logs, checkpoints, training outputs
+runs/
+logs/
+checkpoints/
