@@ -15,7 +15,7 @@ class SimpleCNN(nn.Module):
 
         )
 
-    def __init__(self, num_class=7):
+    def __init__(self, num_class=6):
         super().__init__()
         self.conv1 = self.make_block(in_channels=3, out_channels=8)
         self.conv2 = self.make_block(in_channels=8, out_channels=16)
